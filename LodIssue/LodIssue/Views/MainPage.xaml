@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:LodIssue.Views"
+             xmlns:localA="clr-namespace:LodIssue.Views;assembly=LodIssue"
+             xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"
+             x:Class="LodIssue.Views.MainPage">
+    <StackLayout Padding="0,20,0,0">
+        <telerikPrimitives:RadTabView x:Name="tabView">
+            <telerikPrimitives:RadTabView.Items>
+                <telerikPrimitives:TabViewItem HeaderText="Home" >
+                    <telerikPrimitives:TabViewItem.Content>
+                        <localA:ListPage BindingContext="{Binding listViewModel}" />
+                    </telerikPrimitives:TabViewItem.Content>
+                </telerikPrimitives:TabViewItem>
+                <telerikPrimitives:TabViewItem HeaderText="Folder">
+                    <telerikPrimitives:TabViewItem.Content>
+                        <Label Margin="10" Text="This is the content of the Folder tab" />
+                    </telerikPrimitives:TabViewItem.Content>
+                </telerikPrimitives:TabViewItem>
+                <telerikPrimitives:TabViewItem HeaderText="View">
+                    <telerikPrimitives:TabViewItem.Content>
+                        <Label Margin="10" Text="This is the content of the View tab" />
+                    </telerikPrimitives:TabViewItem.Content>
+                </telerikPrimitives:TabViewItem>
+            </telerikPrimitives:RadTabView.Items>
+        </telerikPrimitives:RadTabView>
+    </StackLayout>
+</ContentPage>
