@@ -1,0 +1,13 @@
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\bin\Debug\netstandard2.0\LodIssue.deps.json
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\bin\Debug\netstandard2.0\LodIssue.dll
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\bin\Debug\netstandard2.0\LodIssue.pdb
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\Views\ListPage.xaml.g.cs
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\Views\MasterPage.xaml.g.cs
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\LodIssue.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\LodIssue.AssemblyInfoInputs.cache
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\LodIssue.AssemblyInfo.cs
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\LodIssue.dll
+C:\Users\Ahmet\source\repos\LodIssue\LodIssue\LodIssue\obj\Debug\netstandard2.0\LodIssue.pdb

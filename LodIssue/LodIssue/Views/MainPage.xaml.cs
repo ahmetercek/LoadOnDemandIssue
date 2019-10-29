@@ -7,13 +7,18 @@ using Xamarin.Forms.Xaml;
 namespace LodIssue.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
+    public partial class MainPage : ContentView
     {
-        MainPageViewModel viewModel;
+        MasterPageViewModel context;
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = viewModel = new MainPageViewModel();
+            //BindingContext = viewModel = new MainPageViewModel();
+        }
+        protected override void OnBindingContextChanged()
+        {
+            base.OnBindingContextChanged();
+            context = (MasterPageViewModel)Parent.BindingContext;
         }
     }
 }

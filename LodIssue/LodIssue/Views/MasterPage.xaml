@@ -1,30 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:localA="clr-namespace:LodIssue.Views;assembly=LodIssue"
              xmlns:telerikPrimitives="clr-namespace:Telerik.XamarinForms.Primitives;assembly=Telerik.XamarinForms.Primitives"
-             x:Class="LodIssue.Views.MainPage">
-    <ContentView.Content>
-    <StackLayout Padding="0,20,0,0">
-        <telerikPrimitives:RadTabView x:Name="tabView" IsContentPreserved="True">
+             x:Class="LodIssue.Views.MasterPage">
+    <StackLayout Padding="0,20,0,0" VerticalOptions="End">
+        <telerikPrimitives:RadTabView x:Name="tabView" IsContentPreserved="True" CompressedLayout.IsHeadless="False"  HeaderPosition="Bottom">
             <telerikPrimitives:RadTabView.Items>
                 <telerikPrimitives:TabViewItem HeaderText="Home" >
                     <telerikPrimitives:TabViewItem.Content>
-                        <localA:ListPage BindingContext="{Binding listViewModel}" />
+                        <localA:MainPage  BindingContext="{Binding MainPageViewModel}" HeightRequest="500"/>
                     </telerikPrimitives:TabViewItem.Content>
                 </telerikPrimitives:TabViewItem>
                 <telerikPrimitives:TabViewItem HeaderText="Folder">
                     <telerikPrimitives:TabViewItem.Content>
-                        <Label Margin="10" Text="This is the content of the Folder tab" />
+                        <Label Margin="10" Text="This is the content of the Folder tab" HeightRequest="500"/>
                     </telerikPrimitives:TabViewItem.Content>
                 </telerikPrimitives:TabViewItem>
                 <telerikPrimitives:TabViewItem HeaderText="View">
                     <telerikPrimitives:TabViewItem.Content>
-                        <Label Margin="10" Text="This is the content of the View tab" />
+                        <Label Margin="10" Text="This is the content of the View tab" HeightRequest="500"/>
                     </telerikPrimitives:TabViewItem.Content>
                 </telerikPrimitives:TabViewItem>
             </telerikPrimitives:RadTabView.Items>
         </telerikPrimitives:RadTabView>
     </StackLayout>
-        </ContentView.Content>
-</ContentView>
+</ContentPage>
